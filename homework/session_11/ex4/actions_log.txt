@@ -1,0 +1,159 @@
+Kiểm tra Đăng nhập Container Registry	Set up job	﻿2026-10-11T13:28:59.1028880Z Current runner version: '2.337.0'
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1050620Z ##[group]Runner Image Provisioner
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1051344Z Hosted Compute Agent
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1051916Z Version: 20261002.596
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1052490Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1053079Z Build Date: 2026-10-02T22:28:27Z
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1053757Z Worker ID: {a670dacb-c265-4208-8d87-333705d31293}
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1054354Z Region: westus3
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1054864Z Cloud: Azure
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1055350Z ##[endgroup]
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1056515Z ##[group]Operating System
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1057108Z Ubuntu
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1057837Z 24.04.5
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1058319Z LTS
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1058794Z ##[endgroup]
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1059567Z ##[group]Runner Image
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1060153Z Image: ubuntu-24.04
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1060639Z Version: 20261004.327.1
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1061626Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1063008Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1063883Z ##[endgroup]
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1064828Z ##[group]GITHUB_TOKEN Permissions
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1066691Z Contents: read
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1067409Z Metadata: read
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1068028Z Packages: write
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1068504Z ##[endgroup]
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1070284Z Secret source: Actions
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1071204Z Cache mode: write
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1071821Z Prepare workflow directory
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1352686Z Prepare all required actions
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.1408762Z Getting action download info
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.4212501Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:28:59.5446740Z Download action repository 'docker/login-action@v3' (SHA:c94ce9fb468520275223c153574b00df6fe4bcc9)
+Kiểm tra Đăng nhập Container Registry	Set up job	2026-10-11T13:29:00.7364462Z Complete job name: Kiểm tra Đăng nhập Container Registry
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	﻿2026-10-11T13:29:00.7955413Z ##[group]Run actions/checkout@v4
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.7956108Z with:
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.7956494Z   repository: QuangVinh1605/IT209-SS11-CAU4
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.7959975Z   token: ***
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.7960420Z   ssh-strict: true
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.7960787Z   ssh-user: git
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.7961158Z   persist-credentials: true
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.7961562Z   clean: true
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.7961929Z   sparse-checkout-cone-mode: true
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.7962358Z   fetch-depth: 1
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.7962723Z   fetch-tags: false
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.7963094Z   show-progress: true
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.7963470Z   lfs: false
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.7963812Z   submodules: false
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.7964192Z   set-safe-directory: true
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.7964605Z   allow-unsafe-pr-checkout: false
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.7965246Z ##[endgroup]
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.8747074Z Syncing repository: QuangVinh1605/IT209-SS11-CAU4
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.8749373Z ##[group]Getting Git version info
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.8750386Z Working directory is '/home/runner/work/IT209-SS11-CAU4/IT209-SS11-CAU4'
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.8751838Z [command]/usr/bin/git version
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9449772Z git version 2.55.0
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9465705Z ##[endgroup]
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9477322Z Temporarily overriding HOME='/home/runner/work/_temp/3e7b8b02-c469-452c-aa32-cc8f27ba920b' before making global git config changes
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9478942Z Adding repository directory to the temporary git global config as a safe directory
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9481437Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/IT209-SS11-CAU4/IT209-SS11-CAU4
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9522312Z Deleting the contents of '/home/runner/work/IT209-SS11-CAU4/IT209-SS11-CAU4'
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9525804Z ##[group]Initializing the repository
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9529078Z [command]/usr/bin/git init /home/runner/work/IT209-SS11-CAU4/IT209-SS11-CAU4
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9597651Z hint: Using 'master' as the name for the initial branch. This default branch name
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9599154Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9600287Z hint: to use in all of your new repositories, which will suppress this warning,
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9600936Z hint: call:
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9601274Z hint:
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9601700Z hint: 	git config --global init.defaultBranch <name>
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9602208Z hint:
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9602681Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9603423Z hint: 'development'. The just-created branch can be renamed via this command:
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9604013Z hint:
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9604355Z hint: 	git branch -m <name>
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9604746Z hint:
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9605248Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9609831Z Initialized empty Git repository in /home/runner/work/IT209-SS11-CAU4/IT209-SS11-CAU4/.git/
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9616570Z [command]/usr/bin/git remote add origin https://github.com/QuangVinh1605/IT209-SS11-CAU4
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9655038Z ##[endgroup]
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9655711Z ##[group]Disabling automatic garbage collection
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9658697Z [command]/usr/bin/git config --local gc.auto 0
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9686108Z ##[endgroup]
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9687009Z ##[group]Setting up auth
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9690788Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:00.9717999Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:01.0836925Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:01.0868302Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:01.1053363Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:01.1084542Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:01.1271218Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:01.1773666Z ##[endgroup]
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:01.1774690Z ##[group]Fetching the repository
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:01.1783454Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +4ba5bb8044d8d431965d08cfcd3aa556967e6d35:refs/remotes/origin/main
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:01.7994892Z From https://github.com/QuangVinh1605/IT209-SS11-CAU4
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:01.7996090Z  * [new ref]         4ba5bb8044d8d431965d08cfcd3aa556967e6d35 -> origin/main
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:01.7999101Z ##[endgroup]
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:01.8000086Z ##[group]Determining the checkout info
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:01.8001716Z ##[endgroup]
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:01.8006851Z [command]/usr/bin/git sparse-checkout disable
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:01.8050176Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:01.8078096Z ##[group]Checking out the ref
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:01.8087777Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:01.8141906Z Switched to a new branch 'main'
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:01.8146413Z branch 'main' set up to track 'origin/main'.
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:01.8151480Z ##[endgroup]
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:01.8183115Z [command]/usr/bin/git log -1 --format=%H
+Kiểm tra Đăng nhập Container Registry	Checkout mã nguồn repository	2026-10-11T13:29:01.8204868Z 4ba5bb8044d8d431965d08cfcd3aa556967e6d35
+Kiểm tra Đăng nhập Container Registry	Đăng nhập vào GitHub Container Registry	﻿2026-10-11T13:29:01.8459292Z ##[group]Run docker/login-action@v3
+Kiểm tra Đăng nhập Container Registry	Đăng nhập vào GitHub Container Registry	2026-10-11T13:29:01.8460384Z with:
+Kiểm tra Đăng nhập Container Registry	Đăng nhập vào GitHub Container Registry	2026-10-11T13:29:01.8461113Z   registry: ghcr.io
+Kiểm tra Đăng nhập Container Registry	Đăng nhập vào GitHub Container Registry	2026-10-11T13:29:01.8461899Z   username: QuangVinh1605
+Kiểm tra Đăng nhập Container Registry	Đăng nhập vào GitHub Container Registry	2026-10-11T13:29:01.8463195Z   password: ***
+Kiểm tra Đăng nhập Container Registry	Đăng nhập vào GitHub Container Registry	2026-10-11T13:29:01.8464162Z   logout: true
+Kiểm tra Đăng nhập Container Registry	Đăng nhập vào GitHub Container Registry	2026-10-11T13:29:01.8465014Z ##[endgroup]
+Kiểm tra Đăng nhập Container Registry	Đăng nhập vào GitHub Container Registry	2026-10-11T13:29:02.0854948Z Logging into ghcr.io...
+Kiểm tra Đăng nhập Container Registry	Đăng nhập vào GitHub Container Registry	2026-10-11T13:29:02.0872162Z (node:2084) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Kiểm tra Đăng nhập Container Registry	Đăng nhập vào GitHub Container Registry	2026-10-11T13:29:02.0874440Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Kiểm tra Đăng nhập Container Registry	Đăng nhập vào GitHub Container Registry	2026-10-11T13:29:02.7399276Z Login Succeeded!
+Kiểm tra Đăng nhập Container Registry	Xác nhận trạng thái đăng nhập	﻿2026-10-11T13:29:02.7552592Z ##[group]Run echo "=========================================="
+Kiểm tra Đăng nhập Container Registry	Xác nhận trạng thái đăng nhập	2026-10-11T13:29:02.7553153Z [36;1mecho "=========================================="[0m
+Kiểm tra Đăng nhập Container Registry	Xác nhận trạng thái đăng nhập	2026-10-11T13:29:02.7553585Z [36;1mecho "Đăng nhập GHCR thành công!"[0m
+Kiểm tra Đăng nhập Container Registry	Xác nhận trạng thái đăng nhập	2026-10-11T13:29:02.7554101Z [36;1mecho "Tài khoản GitHub Actor: QuangVinh1605"[0m
+Kiểm tra Đăng nhập Container Registry	Xác nhận trạng thái đăng nhập	2026-10-11T13:29:02.7554581Z [36;1mecho "Registry: ghcr.io"[0m
+Kiểm tra Đăng nhập Container Registry	Xác nhận trạng thái đăng nhập	2026-10-11T13:29:02.7554991Z [36;1mecho "Workflow Run ID: 38143337246"[0m
+Kiểm tra Đăng nhập Container Registry	Xác nhận trạng thái đăng nhập	2026-10-11T13:29:02.7555400Z [36;1mecho "=========================================="[0m
+Kiểm tra Đăng nhập Container Registry	Xác nhận trạng thái đăng nhập	2026-10-11T13:29:02.7753807Z shell: /usr/bin/bash -e {0}
+Kiểm tra Đăng nhập Container Registry	Xác nhận trạng thái đăng nhập	2026-10-11T13:29:02.7754241Z ##[endgroup]
+Kiểm tra Đăng nhập Container Registry	Xác nhận trạng thái đăng nhập	2026-10-11T13:29:02.7848000Z ==========================================
+Kiểm tra Đăng nhập Container Registry	Xác nhận trạng thái đăng nhập	2026-10-11T13:29:02.7848855Z Đăng nhập GHCR thành công!
+Kiểm tra Đăng nhập Container Registry	Xác nhận trạng thái đăng nhập	2026-10-11T13:29:02.7849695Z Tài khoản GitHub Actor: QuangVinh1605
+Kiểm tra Đăng nhập Container Registry	Xác nhận trạng thái đăng nhập	2026-10-11T13:29:02.7850298Z Registry: ghcr.io
+Kiểm tra Đăng nhập Container Registry	Xác nhận trạng thái đăng nhập	2026-10-11T13:29:02.7850795Z Workflow Run ID: 38143337246
+Kiểm tra Đăng nhập Container Registry	Xác nhận trạng thái đăng nhập	2026-10-11T13:29:02.7851168Z ==========================================
+Kiểm tra Đăng nhập Container Registry	Post Đăng nhập vào GitHub Container Registry	﻿2026-10-11T13:29:02.7973722Z Post job cleanup.
+Kiểm tra Đăng nhập Container Registry	Post Đăng nhập vào GitHub Container Registry	2026-10-11T13:29:03.0289547Z ##[group]Logout from ghcr.io
+Kiểm tra Đăng nhập Container Registry	Post Đăng nhập vào GitHub Container Registry	2026-10-11T13:29:03.0305348Z (node:2105) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Kiểm tra Đăng nhập Container Registry	Post Đăng nhập vào GitHub Container Registry	2026-10-11T13:29:03.0306086Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Kiểm tra Đăng nhập Container Registry	Post Đăng nhập vào GitHub Container Registry	2026-10-11T13:29:03.0351281Z [command]/usr/bin/docker logout ghcr.io
+Kiểm tra Đăng nhập Container Registry	Post Đăng nhập vào GitHub Container Registry	2026-10-11T13:29:03.0473517Z Removing login credentials for ghcr.io
+Kiểm tra Đăng nhập Container Registry	Post Đăng nhập vào GitHub Container Registry	2026-10-11T13:29:03.0489097Z ##[endgroup]
+Kiểm tra Đăng nhập Container Registry	Post Đăng nhập vào GitHub Container Registry	2026-10-11T13:29:03.0489816Z ##[group]Post cache
+Kiểm tra Đăng nhập Container Registry	Post Đăng nhập vào GitHub Container Registry	2026-10-11T13:29:03.0497891Z State not set
+Kiểm tra Đăng nhập Container Registry	Post Đăng nhập vào GitHub Container Registry	2026-10-11T13:29:03.0528221Z ##[endgroup]
+Kiểm tra Đăng nhập Container Registry	Post Checkout mã nguồn repository	﻿2026-10-11T13:29:03.0696797Z Post job cleanup.
+Kiểm tra Đăng nhập Container Registry	Post Checkout mã nguồn repository	2026-10-11T13:29:03.1362157Z [command]/usr/bin/git version
+Kiểm tra Đăng nhập Container Registry	Post Checkout mã nguồn repository	2026-10-11T13:29:03.1395971Z git version 2.55.0
+Kiểm tra Đăng nhập Container Registry	Post Checkout mã nguồn repository	2026-10-11T13:29:03.1423641Z Temporarily overriding HOME='/home/runner/work/_temp/46f33a84-738d-4012-8efe-573d62934b92' before making global git config changes
+Kiểm tra Đăng nhập Container Registry	Post Checkout mã nguồn repository	2026-10-11T13:29:03.1424882Z Adding repository directory to the temporary git global config as a safe directory
+Kiểm tra Đăng nhập Container Registry	Post Checkout mã nguồn repository	2026-10-11T13:29:03.1427630Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/IT209-SS11-CAU4/IT209-SS11-CAU4
+Kiểm tra Đăng nhập Container Registry	Post Checkout mã nguồn repository	2026-10-11T13:29:03.1458119Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Kiểm tra Đăng nhập Container Registry	Post Checkout mã nguồn repository	2026-10-11T13:29:03.1485649Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Kiểm tra Đăng nhập Container Registry	Post Checkout mã nguồn repository	2026-10-11T13:29:03.1687902Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Kiểm tra Đăng nhập Container Registry	Post Checkout mã nguồn repository	2026-10-11T13:29:03.1710457Z http.https://github.com/.extraheader
+Kiểm tra Đăng nhập Container Registry	Post Checkout mã nguồn repository	2026-10-11T13:29:03.1719404Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Kiểm tra Đăng nhập Container Registry	Post Checkout mã nguồn repository	2026-10-11T13:29:03.1747329Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Kiểm tra Đăng nhập Container Registry	Post Checkout mã nguồn repository	2026-10-11T13:29:03.1989287Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Kiểm tra Đăng nhập Container Registry	Post Checkout mã nguồn repository	2026-10-11T13:29:03.2039987Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Kiểm tra Đăng nhập Container Registry	Complete job	﻿2026-10-11T13:29:03.2449880Z Cleaning up orphan processes
+Kiểm tra Đăng nhập Container Registry	Complete job	2026-10-11T13:29:03.2692126Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, docker/login-action@v3. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

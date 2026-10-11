@@ -69,7 +69,16 @@ jobs:
 3. Đẩy mã nguồn lên nhánh `main`: `git push origin main`.
 4. Mở tab **Actions**, kiểm tra log bước *Đăng nhập vào GitHub Container Registry* đạt `Login Succeeded!`.
 
-### 3. Minh chứng thực hiện
+### 3. Kết quả thực thi
+- **Workflow Run:** [Run #38143337246 (Success)](https://github.com/QuangVinh1605/IT209-SS11-CAU4/actions/runs/38143337246)
+- **Log xác nhận:**
+  ```text
+  Logging into ghcr.io...
+  Login Succeeded!
+  ```
+
+### 4. Minh chứng thực hiện
 - **Ảnh Repository Secret REGISTRY_TOKEN:**
   ![Repository Secret](homework/session_11/ex4/screenshots/repository_secret_created.png)
+
 

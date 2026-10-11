@@ -168,18 +168,22 @@ git push -u origin main
 
 ---
 
-### Bước 4: Kiểm tra kết quả thực thi trên GitHub Actions
-1. Mở trình duyệt, truy cập tab **Actions** của Repository:
-   [https://github.com/QuangVinh1605/IT209-SS11-CAU4/actions](https://github.com/QuangVinh1605/IT209-SS11-CAU4/actions)
-2. Chọn lần chạy workflow mới nhất (Workflow run có commit message vừa đẩy).
-3. Nhấp vào job **Kiểm tra Đăng nhập Container Registry** (hoặc `login-registry`).
-4. Mở chi tiết bước **Đăng nhập vào GitHub Container Registry**:
-   - Xác nhận log hiển thị dòng:
-     ```text
-     Logging into ghcr.io...
-     Login Succeeded!
-     ```
-   - Trạng thái toàn bộ Job hiển thị dấu tích xanh (Success :white_check_mark:).
+### Bước 4: Kết quả thực thi thực tế trên GitHub Actions
+Pipeline CI đã được kích hoạt và chạy thành công 100%:
+- **Workflow Run ID:** `38143337246`
+- **Tình trạng:** `Completed / Success` :white_check_mark:
+- **Đường dẫn xem trực tiếp:** [https://github.com/QuangVinh1605/IT209-SS11-CAU4/actions/runs/38143337246](https://github.com/QuangVinh1605/IT209-SS11-CAU4/actions/runs/38143337246)
+- **Log chi tiết trích xuất từ GitHub Runner:**
+  ```text
+  Kiểm tra Đăng nhập Container Registry  Đăng nhập vào GitHub Container Registry  Logging into ghcr.io...
+  Kiểm tra Đăng nhập Container Registry  Đăng nhập vào GitHub Container Registry  Login Succeeded!
+  Kiểm tra Đăng nhập Container Registry  Xác nhận trạng thái đăng nhập            ==========================================
+  Kiểm tra Đăng nhập Container Registry  Xác nhận trạng thái đăng nhập            Đăng nhập GHCR thành công!
+  Kiểm tra Đăng nhập Container Registry  Xác nhận trạng thái đăng nhập            Tài khoản GitHub Actor: QuangVinh1605
+  Kiểm tra Đăng nhập Container Registry  Xác nhận trạng thái đăng nhập            Registry: ghcr.io
+  Kiểm tra Đăng nhập Container Registry  Xác nhận trạng thái đăng nhập            Workflow Run ID: 38143337246
+  Kiểm tra Đăng nhập Container Registry  Xác nhận trạng thái đăng nhập            ==========================================
+  ```
 
 ---
 
@@ -188,8 +192,11 @@ Theo yêu cầu đề bài, sản phẩm hoàn thiện bao gồm:
 1. **Tệp kịch bản CI:** [`.github/workflows/ci.yml`](file:///.github/workflows/ci.yml) (đã có bước `docker/login-action@v3`).
 2. **Tệp sao lưu kịch bản:** [`homework/session_11/ex4/ci.yml`](file:///homework/session_11/ex4/ci.yml).
 3. **Tệp báo cáo tổng hợp:** [`homework/session_11/ex4/README.md`](file:///homework/session_11/ex4/README.md).
-4. **Minh chứng hình ảnh:**
+4. **Tệp toàn bộ log thực thi:** [`homework/session_11/ex4/actions_log.txt`](file:///homework/session_11/ex4/actions_log.txt).
+5. **Minh chứng hình ảnh:**
    - **Ảnh 1: Cấu hình Repository Secret `REGISTRY_TOKEN` thành công:**
      ![Repository Secret REGISTRY_TOKEN](screenshots/repository_secret_created.png)
-   - **Ảnh 2:** Chi tiết log trên tab GitHub Actions hiển thị **`Login Succeeded`** (sau khi pipeline hoàn tất).
+   - **Ảnh 2: Log thực thi trên GitHub Actions hiển thị `Login Succeeded!`:**
+     *(Bạn truy cập [link Run 38143337246](https://github.com/QuangVinh1605/IT209-SS11-CAU4/actions/runs/38143337246) -> mở bước "Đăng nhập vào GitHub Container Registry" và chụp màn hình).*
+
 
