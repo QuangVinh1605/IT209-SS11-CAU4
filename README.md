@@ -68,3 +68,8 @@ jobs:
 2. Lưu token vào Repository Secret với tên `REGISTRY_TOKEN` tại [Repository Actions Secrets](https://github.com/QuangVinh1605/IT209-SS11-CAU4/settings/secrets/actions).
 3. Đẩy mã nguồn lên nhánh `main`: `git push origin main`.
 4. Mở tab **Actions**, kiểm tra log bước *Đăng nhập vào GitHub Container Registry* đạt `Login Succeeded!`.
+
+### 3. Minh chứng thực hiện
+- **Ảnh Repository Secret REGISTRY_TOKEN:**
+  ![Repository Secret](homework/session_11/ex4/screenshots/repository_secret_created.png)
+

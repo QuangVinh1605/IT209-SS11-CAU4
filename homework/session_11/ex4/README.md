@@ -189,5 +189,7 @@ Theo yêu cầu đề bài, sản phẩm hoàn thiện bao gồm:
 2. **Tệp sao lưu kịch bản:** [`homework/session_11/ex4/ci.yml`](file:///homework/session_11/ex4/ci.yml).
 3. **Tệp báo cáo tổng hợp:** [`homework/session_11/ex4/README.md`](file:///homework/session_11/ex4/README.md).
 4. **Minh chứng hình ảnh:**
-   - Ảnh chụp màn hình trang **Settings -> Secrets and variables -> Actions** hiển thị secret `REGISTRY_TOKEN`.
-   - Ảnh chụp màn hình chi tiết log trên GitHub Actions hiển thị **`Login Succeeded`**.
+   - **Ảnh 1: Cấu hình Repository Secret `REGISTRY_TOKEN` thành công:**
+     ![Repository Secret REGISTRY_TOKEN](screenshots/repository_secret_created.png)
+   - **Ảnh 2:** Chi tiết log trên tab GitHub Actions hiển thị **`Login Succeeded`** (sau khi pipeline hoàn tất).
+
