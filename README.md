@@ -80,5 +80,8 @@ jobs:
 ### 4. Minh chứng thực hiện
 - **Ảnh Repository Secret REGISTRY_TOKEN:**
   ![Repository Secret](homework/session_11/ex4/screenshots/repository_secret_created.png)
+- **Ảnh Log Đăng nhập Container Registry hiển thị Login Succeeded:**
+  ![Login Succeeded Log](homework/session_11/ex4/screenshots/login_succeeded.png)
+
 
 

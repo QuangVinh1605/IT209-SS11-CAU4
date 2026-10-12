@@ -197,6 +197,7 @@ Theo yêu cầu đề bài, sản phẩm hoàn thiện bao gồm:
    - **Ảnh 1: Cấu hình Repository Secret `REGISTRY_TOKEN` thành công:**
      ![Repository Secret REGISTRY_TOKEN](screenshots/repository_secret_created.png)
    - **Ảnh 2: Log thực thi trên GitHub Actions hiển thị `Login Succeeded!`:**
-     *(Bạn truy cập [link Run 38143337246](https://github.com/QuangVinh1605/IT209-SS11-CAU4/actions/runs/38143337246) -> mở bước "Đăng nhập vào GitHub Container Registry" và chụp màn hình).*
+     ![Login Succeeded Log](screenshots/login_succeeded.png)
+
 
 
